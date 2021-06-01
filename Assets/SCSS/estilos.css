@@ -1,0 +1,89 @@
+:root {
+  --primer__color: #F6F4F2;
+  --segundo__color: #425664;
+  --tercer__color: #C6AD8F;
+  --primer__tamano: 4em;
+  --segundo__tamano: 3.5em;
+  --tercer__tamano: 2.5em;
+  --cuarto__tamano: 1.5em;
+  --quinto__tamano: 0.8em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  list-style-type: none;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  overflow-y: visible;
+  background-color: var(--primer__color);
+}
+
+a,
+a:active,
+a:link,
+a:visited,
+li,
+ol,
+ul {
+  font-style: normal;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+}
+
+legend {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em;
+}
+
+fieldset {
+  width: 100%;
+  height: auto;
+  border-radius: 2em;
+  border: var(--segundo__color) 0.4em solid;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 1.5em;
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 16px;
+  margin: 10px auto;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+/*# sourceMappingURL=estilos.css.map */
