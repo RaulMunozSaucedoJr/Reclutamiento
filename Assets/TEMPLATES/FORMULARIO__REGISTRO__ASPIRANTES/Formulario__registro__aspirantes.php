@@ -10,7 +10,7 @@
             <!-- INPUT NOMBRE(S)-->
             <div class="form-group">
                 <label for="nombres" class="label">Nombre(s)</label>
-                <input type="text" inputmode="text" class="form-control" id="nombres" name="Nombres"
+                <input type="text" inputmode="text" class="form-control" id="Nombres" name="Nombres"
                     placeholder="Nombre(s)" required>
                 <p>Este campo debe tener una longitud entre 8 y 24 letras.
                     <strong>
